@@ -16,12 +16,9 @@ body {
     /* Visual */
     background-color: #1F2937;
 
-    /* margin/border/padding */
-    padding-left: 12%;
-    padding-right: 12%;
-
     /* Flex container properties */
     display: flex;
+    flex:1;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -42,9 +39,35 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 
-    
-    /* Flex container properties */
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
 }
+
+/* Links in the header links div should be all white */
+.header_links a:link, a:visited, a:active, a:hover{color: #E5E7EB;}
+
+/* The links themselves should align pic with writing */
+.headerLink{
+  display:flex;
+  align-items: baseline;
+
+  gap: 10px;
+
+  /* Text Color */
+  font-size: 32px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  
+}
+
+/* Images should all be small, the same size */
+.header_links img{
+  height: 20px;
+  width: 20px;
+}
+
+
 
 li {
 
@@ -71,7 +94,7 @@ li {
     /* Flex properties */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 50px;
 
     color: white;
