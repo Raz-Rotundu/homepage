@@ -5,10 +5,6 @@ body {
 
     /* Border/Margin/Padding */
     margin: 0px;
-
-    /* Flex Properties */
-    display: flex;
-    flex-direction: column;
 }
 
 /* Header styles */
@@ -82,37 +78,29 @@ li {
 .hero {
     /* Color properties */
     background-color: #1F2937;
+    color: white;
 
-    /* Padding/Margin/Border */
-    padding-left: 12%;
-    padding-right: 12%;
-    
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+    /* Div Size */
+    height: 700px;
 
     /* Flex properties */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    gap: 50px;
 
-    color: white;
-
-    /* size properties */
-    height: 300px;
-
+    /* Element gap */
 }
 
- .text {
+ .textContainer {
     /* Color properties */
     color: #F9FAF8;
 
+    /* Text properties */
+    text-align: center;
+
     /* Flex Properties */
     display: flex;
-    flex: 0.5;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
     
 
@@ -129,37 +117,16 @@ li {
  .herosecond {
     
     /* Text properties */
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
+
+    padding-left: 20%;
+    padding-right: 20%;
 
 
  }
 
- .text button {
-    /* Margin/Padding/Border */
-    border-radius: 5px;
-    border: 0;
-
-    /* padding-left: 25%; */
-    /* padding-right: 25%; */
-
-    margin-top: 1%;
-    margin-right: 90%;
-
-    /* Coloring */
-    background-color: #3882F6;
-
-    /* Text */
-    color: #E5E7EB;
-    font-weight: bolder;
-
-    /* sizing */
-    min-width: 70.9833px;
-    min-height: 18.9833px;
-
- }
-
- .pic {
+ .picContainer {
     /* Flex properties */
     display: flex;
     justify-content: center;
@@ -167,18 +134,17 @@ li {
     flex: 0.5;
 
     /* Coloring */
-    background-color: #9a9b9e;
+    /* background-color: #9a9b9e; */
+ }
+ .picContainer img{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
  }
 
  /* Info section styles */
 
  .info {
-    /* Flex properties */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /* height/width properties */
-    height: 500px;
 
  }
 
@@ -252,12 +218,6 @@ li {
 
  /* Styles for the Quote div */
  .testimonial {
-   /* Border/Margin/Padding */
-   margin-top:60px;
-   /* flex properties */
-   display: flex;
-   justify-content: center;
-   align-items: center;
    /* Color properties */
    background-color: #E5E7EB;
    /* Text properties */
@@ -357,29 +317,6 @@ li {
 
  }
 
- .bluebox button{
-   /* Border/Margin/Padding */
-   border: 3px solid #F9FAF8;
-   border-radius: 8px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-
-   /* flex properties */
-   flex: 0.5;
-   /* Color properties */
-   color: #F9FAF8;
-   /* Text properties */
-   background-color: #3882F6;
-   font-weight: bolder;
-   /* Height/width */
-    min-width: 70.9833px;
-    min-height: 18.9833px;
- }
-
- /* All buttons on hover */
- button:hover {
-  background-color: #77a6f1;
- }
 
 
  /* The footer */
