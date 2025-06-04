@@ -7,6 +7,28 @@ body {
     margin: 0px;
 }
 
+#homeButton{
+  /* display: none;  */
+  position: fixed; 
+  bottom: 33%; 
+  right: 10px; 
+  z-index: 99;
+  border: none; 
+  outline: none;
+  background-color: #1f2937;
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 50%; 
+  font-size: 18px;
+
+  height:75px;
+  width:75px;
+}
+
+#homeButton:hover{
+  background-color: rgb(39, 169, 209); 
+}
 /* Header styles */
 .header {
     /* Visual */
@@ -65,7 +87,7 @@ body {
 
 
 /* Hero section styles*/
-.hero {
+.bio {
     /* Color properties */
     background-color: #1F2937;
     color: white;
@@ -98,7 +120,7 @@ body {
   font-size: 18px;
  }
 
- .heromain {
+ .biomain {
 
     /* Text properties */
     font-size: 48px;
@@ -106,7 +128,7 @@ body {
 
  }
  
- .herosecond {
+ .biosecond {
     
     /* Text properties */
     font-size: 24px;
@@ -241,7 +263,7 @@ body {
  }
 
  .darker {
-  background-color:#dddddd;
+  background-color:#ebebeb;
   margin-left: 0;
   padding-left: 20px;
  }

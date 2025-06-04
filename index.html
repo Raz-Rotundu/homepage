@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/button.js"></script>
     <title>Razvan Rotundu</title>
 </head>
 <body>
+    <!-- Button follows user and sends page back to top -->
+     <button onclick="topFunction()" id="homeButton" title="Return to top"><img alt="home button" src="images/home.svg"></button>
+
     <!-- Header displays phone number, email, github and linkedin -->
-    <div class="header">
+    <div class="header" id="home">
         <!-- <div class="header_logo">Header Logo Here</div> -->
         <div class="header_links">
             <div class="headerLink"><img class = "smallImg" src="images/phone.png">905-510-7469</div>
@@ -20,19 +24,19 @@
 
 
     <!-- Hero contains profile picture and desctiption -->
-    <div class="hero">
+    <div class="bio">
         <div class="picContainer">
             <img alt="Razvan's profile pic" src="images/Raz_pfp.jpg">
         </div>
         <div class="textContainer">
-            <div class="heromain">Razvan Rotundu</div>
+            <div class="biomain">Razvan Rotundu</div>
             <div class="jobTitle">Aspiring software dev</div>
-            <div class="herosecond">
+            <div class="biosecond">
                 <p>
                     Hi! I am a recent graduate of Western University with a Bachelor of Science in Computer Science. I am passionate about software development, with a strong focus on Java and backend technologies, and a growing interest in artificial intelligence.
                 </p>
                 <p>Throughout my studies and personal learning, I’ve completed several Java-based projects that demonstrate my commitment to building practical, real-world software. 
-                    These projects include a fully functional tree walk interpreter, a student management system using MVC and Spring's dependency injection, and desigining a RESTful API endpoint using Spring Boot and HATEOAS principles.
+                    These projects include a fully functional tree walk interpreter, a student management system using MVC and Spring's dependency injection, and a RESTful API endpoint using Spring Boot and HATEOAS principles.
                 </p>
             </div>
         </div>
@@ -87,6 +91,11 @@
         </div>
     </div>
 
+    <!-- Experience contains former job entries -->
+    <div class="experience">
+        <!-- none lmao -->
+    </div>
+
     <!-- Projects contains project title + github link, + description as on CV -->
     <div class="projects">
 
@@ -96,7 +105,9 @@
             <div class="projectHead">
                 <div class="projectTitle">Payroll RESTful Web Service</div>
                 <div class="projectLanguages">Java, Spring Boot</div>
-                <a class = "projectLink"><img class = "smallImg" alt="little github logo" src="images/github-project.svg"></a>
+                <a class = "projectLink" href="https://github.com/Raz-Rotundu/Payroll">
+                    <img class = "smallImg" alt="little github logo" src="images/github-project.svg">
+                </a>
             </div>
             <div class="projectDesc">
                 <ul>
@@ -113,7 +124,9 @@
             <div class="projectHead">
                 <div class="projectTitle">Class Roster Management System</div>
                 <div class="projectLanguages">Java, Spring</div>
-                <a class = "projectLink"><img class = "smallImg" alt="little github logo" src="images/github-project.svg"></a>
+                <a class = "projectLink" href="https://github.com/Raz-Rotundu/ClassRoster">
+                    <img class = "smallImg" alt="little github logo" src="images/github-project.svg">
+                </a>
             </div>
             <div class="projectDesc">
                 <ul>
@@ -130,7 +143,9 @@
             <div class="projectHead">
                 <div class="projectTitle">Lox Interpreter</div>
                 <div class="projectLanguages">Java </div>
-                <a class = "projectLink"><img class = "smallImg" alt="little github logo" src="images/github-project.svg"></a>
+                <a class = "projectLink" href="https://github.com/Raz-Rotundu/Lox">
+                    <img class = "smallImg" alt="little github logo" src="images/github-project.svg">
+                </a>
             </div>
             <div class="projectDesc">
                 <ul>
@@ -150,7 +165,9 @@
             <div class="projectHead">
                 <div class="projectTitle">Chess </div>
                 <div class="projectLanguages">Ruby</div>
-                <a class = "projectLink"><img class = "smallImg" alt="little github logo" src="images/github-project.svg"></a>
+                <a class = "projectLink" href="https://github.com/Raz-Rotundu/chess_final">
+                    <img class = "smallImg" alt="little github logo" src="images/github-project.svg">
+                </a>
             </div>
             <div class="projectDesc">
                 <ul>
@@ -168,7 +185,9 @@
             <div class="projectHead">
                 <div class="projectTitle">Text Editor (Team Project)</div>
                 <div class="projectLanguages">Java, Swing</div>
-                <a class = "projectLink"><img class = "smallImg" alt="little github logo" src="images/github-project.svg"></a>
+                <a class = "projectLink" href="https://github.com/Raz-Rotundu/java-spellchecker">
+                    <img class = "smallImg" alt="little github logo" src="images/github-project.svg">
+                </a>
             </div>
             <div class="projectDesc">
                 <ul>
@@ -185,7 +204,9 @@
             <div class="projectHead">
                 <div class="projectTitle">Bitbuddy (Team)</div>
                 <div class="projectLanguages">C++, QT</div>
-                <a class = "projectLink"><img class = "smallImg" alt="little github logo" src="images/github-project.svg"></a>
+                <a class = "projectLink"  href="https://github.com/Raz-Rotundu/BitBuddy">
+                    <img class = "smallImg" alt="little github logo" src="images/github-project.svg">
+                </a>
             </div>
             <div class="projectDesc">
                 <ul>
@@ -201,7 +222,9 @@
             <div class="projectHead">
                 <div class="projectTitle">Shopping</div>
                 <div class="projectLanguages">Python, Scitkit-learn, Numpy</div>
-                <a class = "projectLink"><img class = "smallImg" alt="little github logo" src="images/github-project.svg"></a>
+                <a class = "projectLink" href="https://github.com/Raz-Rotundu/shopping">
+                    <img class = "smallImg" alt="little github logo" src="images/github-project.svg">
+                </a>
             </div>
             <div class="projectDesc">
                 <ul>
