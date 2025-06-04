@@ -41,7 +41,7 @@ body {
 }
 
 /* Links in the header links div should be all white */
-.header_links a:link, a:visited, a:active, a:hover{color: #E5E7EB;}
+.header_links a:link, .header_links a:visited, .header_links a:active, .header_links a:hover{color: #E5E7EB;}
 
 /* The links themselves should align pic with writing */
 .headerLink{
@@ -232,12 +232,19 @@ body {
    gap: 60px;
  }
 
- .infoheader{
+ .infoheader {
   margin-top: 20px;
  }
-.projectEntry{
+
+.projectEntry {
   margin-left: 20px;
-}
+ }
+
+ .darker {
+  background-color:#dddddd;
+  margin-left: 0;
+  padding-left: 20px;
+ }
 
  .projectHead{
   /* Heading has a strong bold underline */
@@ -256,7 +263,7 @@ body {
   font-weight: bold;
  }
 .projectLanguages{
-  font-size: 18px;
+  font-size: 22px;
   font-style: italic;
 }
 
