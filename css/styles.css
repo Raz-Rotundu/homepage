@@ -85,6 +85,9 @@ body {
   width: 25px;
 }
 
+.smallImg:hover{
+  background-color: #77a6f1;
+}
 
 /* Hero section styles*/
 .bio {
