@@ -8,7 +8,7 @@ body {
 }
 
 #homeButton{
-  /* display: none;  */
+  display: none; 
   position: fixed; 
   bottom: 33%; 
   right: 10px; 
