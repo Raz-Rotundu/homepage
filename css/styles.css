@@ -171,10 +171,13 @@ li {
    display: flex;
    justify-content: space-around;
 
+   /* Card text is bold and nicely visible */
+   font-size: 24px;
+   font-weight: bold;
+
  }
 
  .card {
-   /* margin/border/padding */
 
    /* Flex properties */
    display: flex;
@@ -187,7 +190,7 @@ li {
 
  .cardimage {
    /* margin/border/padding */
-   border: 4px solid #77a6f1;
+
    border-radius: 12px;
 
    /* Height/width properties */
@@ -197,16 +200,17 @@ li {
    text-align:center;
    vertical-align: middle;
    line-height: 70%;
-   
-   /* Color properties */
-   background-color: #dbdbdb;
 
    /* Flex properties */
    display: flex;
    justify-content: center;
    align-items: center;
-   
+ }
 
+ .cardimage:hover{
+  /* hovering shows outline and slight shading */
+    border: 4px solid #77a6f1;
+    background-color: #d0fcf8d7;
  }
 
  /* Card images are sized and centered */
