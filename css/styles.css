@@ -71,7 +71,7 @@ body {
     color: white;
 
     /* Div Size */
-    height: 700px;
+    height: 800px;
 
     /* Flex properties */
     display: flex;
@@ -92,8 +92,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+ }
 
+ .textContainer{
+  font-size: 18px;
  }
 
  .heromain {
@@ -219,7 +221,7 @@ body {
 
 
 
- /* Styles for the Quote div */
+
  .projects {
    /* Color properties */
    background-color: #E5E7EB;
@@ -228,14 +230,14 @@ body {
    display:flex;
    flex-direction: column;
    gap: 60px;
-
-
-
  }
 
- .projectEntry{
-  /* Entries have defined sizes for flex */
+ .infoheader{
+  margin-top: 20px;
  }
+.projectEntry{
+  margin-left: 20px;
+}
 
  .projectHead{
   /* Heading has a strong bold underline */
@@ -261,7 +263,7 @@ body {
 
  .projectDesc{
   list-style-type: circle;
-  font-size: 16px;
+  font-size: 24px;
  }
 
  .projectDesc li{
