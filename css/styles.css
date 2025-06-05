@@ -29,6 +29,7 @@ body {
 #homeButton:hover{
   background-color: rgb(39, 169, 209); 
 }
+
 /* Header styles */
 .header {
     /* Visual */
@@ -95,8 +96,9 @@ body {
     background-color: #1F2937;
     color: white;
 
-    /* Div Size */
-    height: 800px;
+    /* Div Size
+    height: 800px; */
+    gap:20px;
 
     /* Flex properties */
     display: flex;
@@ -199,6 +201,7 @@ body {
    /* Flex properties */
    display: flex;
    flex-direction: column;
+
    height: 300px;
    width: 200px;
 
@@ -230,12 +233,12 @@ body {
     background-color: #d0fcf8d7;
  }
 
- /* Card images are sized and centered */
+ /* Card images are sized and centered
  .cardimage img{
   height: 200px;
   width: 200px;
 
- }
+ } */
 
  .cardtext {
    /* text properties */
