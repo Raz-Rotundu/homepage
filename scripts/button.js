@@ -4,6 +4,11 @@
 document.addEventListener("DOMContentLoaded", function(){
     let homeButton = document.getElementById("homeButton");
 
+    homeButton.addEventListener("click", function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    })
+
     // Call scrollfunction on scroll
     window.onscroll = function() {scrollFunction()};
 
@@ -25,10 +30,8 @@ document.addEventListener("DOMContentLoaded", function(){
     if (isMobileDevice) {
         let headerLinks = document.getElementById("links");
         headerLinks.style.flexDirection = "column";
-
-        console.log("You are using a Mobile Device");
     }
-
+    
     // Function to follow button down
     function scrollFunction() {
         if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -38,10 +41,6 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     }
 
-    // Function to send user back to top
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+
 });
 
