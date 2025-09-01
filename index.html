@@ -9,16 +9,16 @@
 </head>
 <body>
     <!-- Button follows user and sends page back to top -->
-     <button id="homeButton" title="Return to top"><img alt="home button" src="images/home.svg"></button>
+     <button id="homeButton" title="Return to top" type="button"><img alt="home button" src="images/home.svg"></button>
 
     <!-- Header displays phone number, email, github and linkedin -->
     <div class="header" id="home">
         <!-- <div class="header_logo">Header Logo Here</div> -->
         <div class="header_links" id="links">
-            <div class="headerLink"><img class = "smallImg" src="images/phone.png">905-510-7469</div>
-            <div class="headerLink"><img class = "smallImg" src="images/mail.png">raz.rotundu@gmail.com</div>
-            <div class="headerLink"><a href="https://www.linkedin.com/in/razvan-rotundu-69710b1a8"><img class = "smallImg clickable" src="images/linkedin.png"></a></div>
-            <div class="headerLink"><a href="https://github.com/Raz-Rotundu"><img class="smallImg clickable" src="images/github.png"></a></div>
+            <div class="headerLink"><img class="smallImg" src="images/phone.png" alt="Small phone image">905-510-7469</div>
+            <div class="headerLink"><img class="smallImg" src="images/mail.png" alt="Small mail image">raz.rotundu@gmail.com</div>
+            <div class="headerLink"><a href="https://www.linkedin.com/in/razvan-rotundu-69710b1a8"><img class="smallImg clickable" src="images/linkedin.png" alt="Linkedin Logo"></a></div>
+            <div class="headerLink"><a href="https://github.com/Raz-Rotundu"><img class="smallImg clickable" src="images/github.png" alt="Small github logo"></a></div>
         </div>
     </div>
 
@@ -33,10 +33,10 @@
             <div class="jobTitle">Aspiring software dev</div>
             <div class="biosecond">
                 <p>
-                    Hi! I am a recent graduate of Western University with a Bachelor of Science in Computer Science. I am passionate about software development, with a strong focus on Java and backend technologies, and a growing interest in artificial intelligence.
+                    I’m Computer Science graduate from the University of Western Ontario, having graduated in 2024. I have foundational knowledge of data structures and algorithms, object-oriented design patterns, and software development tools like Git and Jira.
                 </p>
-                <p>Throughout my studies and personal learning, I’ve completed several Java-based projects that demonstrate my commitment to building practical, real-world software. 
-                    These projects include a fully functional tree walk interpreter, a student management system using MVC and Spring's dependency injection, and a RESTful API endpoint using Spring Boot and HATEOAS principles.
+                I’ve worked mainly with Java and C++, but also know a bit of Ruby, HTML/CSS/JavaScript. Since graduating I’ve been continuing my personal studies through a series of independent projects. I am passionate about technology and am currently looking to start my career in software development.
+                <p>
                 </p>
             </div>
         </div>
@@ -54,7 +54,7 @@
                         <img alt="Java logo" src="images/skills/java-original.svg">
                     </div>
                 </a>
-                <div class="cardtext">Java</Div>
+                <div class="cardtext">Java</div>
             </div>
             <div class="card">
                 <a href="#spring_example">
@@ -62,7 +62,7 @@
                         <img alt="Spring logo" src="images/skills/spring-original.svg">
                     </div>
                 </a>
-                <Div class="cardtext">Spring</Div>
+                <div class="cardtext">Spring</div>
             </div>
             <div class="card">
                 <a href="#cpp_example">
@@ -70,7 +70,7 @@
                         <img alt="C plus plus logo" src="images/skills/cplusplus-original.svg">
                     </div>
                 </a>
-                <div class="cardtext">C++</Div>
+                <div class="cardtext">C++</div>
             </div>
             <div class="card">
                 <a href="#ruby_example">
@@ -78,7 +78,7 @@
                         <img alt="Ruby logo" src="images/skills/ruby-original.svg">
                     </div>
                 </a>
-                <Div class="cardtext">Ruby</Div>
+                <div class="cardtext">Ruby</div>
             </div>
             <div class="card">
                 <a href="#python_example">
@@ -86,7 +86,7 @@
                         <img alt="Linux logo" src="images/skills/python-original.svg">
                     </div>
                 </a>
-                <Div class="cardtext">Python</Div>
+                <div class="cardtext">Python</div>
             </div>
         </div>
     </div>
@@ -101,39 +101,37 @@
 
         <div class="infoheader">Projects</div>
 
-        <div class="projectEntry darker" id="spring_example"">
+        <div class="projectEntry darker" id="spring_example">
             <div class="projectHead">
                 <div class="projectTitle">Payroll RESTful Web Service</div>
                 <div class="projectLanguages">Java, Spring Boot</div>
-                <a class = "projectLink" href="https://github.com/Raz-Rotundu/Payroll">
-                    <img class = "smallImg clickable" alt="little github logo" src="images/github-project.svg">
+                <a class="projectLink" href="https://github.com/Raz-Rotundu/Payroll">
+                    <img class="smallImg clickable" alt="little github logo" src="images/github-project.svg">
                 </a>
             </div>
             <div class="projectDesc">
                 <ul>
-                    <li>Developed a RESTful web service using Spring Boot based on the official Spring.io tutorial, reinforcing core concepts of web API development.</li>
-                    <li>Implemented HTTP endpoints for CRUD operations on resources using REST principles and Spring MVC.</li>
-                    <li>Utilized Spring Boot's auto-configuration and embedded server to rapidly develop and test the service with minimal boilerplate.</li>
-                    <li>Applied HATEOAS principles to enhance API discoverability and client navigation through hypermedia links.</li>
+                    <li>Built a RESTful API for managing resources using HTTP methods and REST principles.</li>
+                    <li>Implemented error handling and API testing for robust, reliable performance.</li>
+                    <li>Practiced troubleshooting backend issues and resolving integration problems.</li>
                 </ul>
             </div>
         </div>
-
-        
         <div class="projectEntry">
             <div class="projectHead">
                 <div class="projectTitle">Class Roster Management System</div>
                 <div class="projectLanguages">Java, Spring</div>
-                <a class = "projectLink" href="https://github.com/Raz-Rotundu/ClassRoster">
-                    <img class = "smallImg clickable" alt="little github logo" src="images/github-project.svg">
+                <a class="projectLink" href="https://github.com/Raz-Rotundu/ClassRoster">
+                    <img class="smallImg clickable" alt="little github logo" src="images/github-project.svg">
                 </a>
             </div>
             <div class="projectDesc">
                 <ul>
-                    <li>Built a modular, command-line student management system using Java and the Spring Framework to demonstrate enterprise application design patterns.</li>
-                    <li>Applied Spring's dependency injection and inversion of control to decouple components and promote testability and maintainability.</li>
-                    <li>Structured the application using MVC architecture and layered design, separating concerns across service, controller, and DAO layers.</li>
-                    <li>Leveraged Spring’s ApplicationContext and annotations/XML configuration for managing bean lifecycle and object dependencies.</li>
+
+                    <li>Designed a command-line application for managing student records.</li>
+                    <li>Applied MVC architecture and Spring dependency injection for low-coupling, modular code.</li>
+                    <li>Debugged and tested application components to ensure smooth operation and clear error reporting.</li>
+
                 </ul>
             </div>
         </div>
@@ -143,16 +141,17 @@
             <div class="projectHead">
                 <div class="projectTitle">Lox Interpreter</div>
                 <div class="projectLanguages">Java </div>
-                <a class = "projectLink" href="https://github.com/Raz-Rotundu/Lox">
-                    <img class = "smallImg clickable" alt="little github logo" src="images/github-project.svg">
+                <a class="projectLink" href="https://github.com/Raz-Rotundu/Lox">
+                    <img class="smallImg clickable" alt="little github logo" src="images/github-project.svg">
                 </a>
             </div>
             <div class="projectDesc">
                 <ul>
                     <li>Built a fully functional tree-walk interpreter for the Lox programming language in Java by following the first half of <a href="http://www.craftinginterpreters.com/">Crafting Interpreters</a> by Robert Nystrom.</li>
-                    <li>Implemented a recursive descent parser, lexical scanner, and runtime environment supporting variables, control flow, functions, and scoping.</li>
-                    <li>Designed and maintained a token stream, abstract syntax tree, and visitor-based evaluation model to execute Lox programs.</li>
-                    <li>Developed error handling for both compile-time and runtime issues, including lexical errors, parser synchronization, and runtime exceptions.</li>
+                    <li>Implemented recursive descent parser to construct Lox syntax tree.</li>
+                    <li>Used Visitor design pattern to evaluate syntax tree classes while keeping code legible.</li>
+                    <li>Simplified the definition of expression classes using metaprogramming.</li>
+                    <li>Strengthened problem-solving abilities through debugging logic issues.</li>
                 </ul>
             </div>
         </div>
@@ -161,17 +160,17 @@
             <div class="projectHead">
                 <div class="projectTitle">Chess </div>
                 <div class="projectLanguages">Ruby</div>
-                <a class = "projectLink" href="https://github.com/Raz-Rotundu/chess_final">
-                    <img class = "smallImg clickable" alt="little github logo" src="images/github-project.svg">
+                <a class="projectLink" href="https://github.com/Raz-Rotundu/chess_final">
+                    <img class="smallImg clickable" alt="little github logo" src="images/github-project.svg">
                 </a>
             </div>
             <div class="projectDesc">
                 <ul>
-                    <li>Developed a fully functional command-line chess game in Ruby, supporting all core gameplay mechanics and rules (check, checkmate, castling, en passant, pawn promotion).</li>
-                    <li>Implemented object-oriented design principles to model pieces, board state, and game flow using classes and inheritance.</li>
-                    <li>Applied serialization using JSON to allow saving and loading of game states, enabling session persistence.</li>
-                    <li>Built custom validation logic to enforce legal moves and game rules without external libraries.</li>
-                    <li>Employed version control with Git throughout the development process; practiced iterative development and debugging.</li>
+                    -Developed a fully functional chess game inside terminal supporting all core game rules.
+                    -Implemented game logic representing special moves like castling, en-passant, etc.
+                    -Added persistence to game state by implementing JSON marshalling/unmarshalling, enabling saving and loading.
+                    -Used Rspec for unit testing, and robocop for linting.
+                    -Managed dependencies using Bundler.
                 </ul>
             </div>
         </div>
@@ -181,17 +180,16 @@
             <div class="projectHead">
                 <div class="projectTitle">Text Editor (Team Project)</div>
                 <div class="projectLanguages">Java, Swing</div>
-                <a class = "projectLink" href="https://github.com/Raz-Rotundu/java-spellchecker">
-                    <img class = "smallImg clickable" alt="little github logo" src="images/github-project.svg">
+                <a class="projectLink" href="https://github.com/Raz-Rotundu/java-spellchecker">
+                    <img class="smallImg clickable" alt="little github logo" src="images/github-project.svg">
                 </a>
             </div>
             <div class="projectDesc">
                 <ul>
-                    <li>Collaborated in a team of five to develop a GUI-based text editor using Java and Swing, implementing features such as file I/O, formatting, and spell-check support.</li>
-                    <li>Designed and implemented a Damerau-Levenshtein distance algorithm to suggest corrections for misspelled words based on edit distance.</li>
-                    <li>Contributed to overall codebase via Git, participating in peer code reviews, version control, and agile-style task planning.</li>
-                    <li>Ensured algorithm efficiency to maintain responsiveness for large input texts, optimizing performance-critical components.</li>
-                    <li>Gained experience in software collaboration, interface design with Swing, and algorithmic problem solving in a real-world application.</li>
+                    <li>Developed a text editor with features including file I/O, text formatting, and real time spell-checking.</li>
+                    <li>Implemented Damerau-Levenstein algorithm to suggest corrections for misspelled words.</li>
+                    <li>Worked collaboratively using Git for version control and conducted peer code reviews.</li>
+                    <li>Gained hands-on experience in software development troubleshooting, debugging, and using dependency management tools (Maven).</li>
                 </ul>
             </div>
         </div>
@@ -200,17 +198,16 @@
             <div class="projectHead">
                 <div class="projectTitle">Bitbuddy (Team Project)</div>
                 <div class="projectLanguages">C++, QT</div>
-                <a class = "projectLink"  href="https://github.com/Raz-Rotundu/BitBuddy">
-                    <img class = "smallImg clickable" alt="little github logo" src="images/github-project.svg">
+                <a class="projectLink"  href="https://github.com/Raz-Rotundu/BitBuddy">
+                    <img class="smallImg clickable" alt="little github logo" src="images/github-project.svg">
                 </a>
             </div>
             <div class="projectDesc">
                 <ul>
-                    <li>Collaborated in a team to design and develop a “Tamagotchi-like” desktop application in C++, featuring an interactive virtual pet with a custom GUI built using the Qt framework.</li>
-                    <li>Used Git for version control, managing feature branches and coordinating parallel development to streamline collaboration and reduce merge conflicts.</li>
-                    <li>Designed and implemented a fully functional Tic-Tac-Toe minigame, including AI-based computer opponents.</li>
-                    <li>Contributed to UI development, game logic, and project planning, gaining experience in C++ event-driven programming and real-time application behavior.</li>
-                    <li>Strengthened understanding of GUI application architecture, cross-platform development, and team-based software engineering.</li>
+                    <li>Collaborated as part of a team to develop a “Tamagotchi-like” virtual pet application, with a custom GUI built with QT.</li>
+                    <li>Designed and implemented a tic-tac-toe minigame with fully functional AI opponents.</li>
+                    <li>Used Git to facilitate parallel development of features across different branches.</li>
+                    <li>Participated in group code review and collaborative discussion of design decisions.</li>
                 </ul>
             </div>
         </div>
@@ -218,18 +215,17 @@
             <div class="projectHead">
                 <div class="projectTitle">Shopping</div>
                 <div class="projectLanguages">Python, Scitkit-learn, Numpy</div>
-                <a class = "projectLink" href="https://github.com/Raz-Rotundu/shopping">
-                    <img class = "smallImg clickable" alt="little github logo" src="images/github-project.svg">
+                <a class="projectLink" href="https://github.com/Raz-Rotundu/shopping">
+                    <img class="smallImg clickable" alt="little github logo" src="images/github-project.svg">
                 </a>
             </div>
             <div class="projectDesc">
-                <ul>
-                    <li>Developed a supervised machine learning model using Naive Bayes classification to predict online shopping behavior based on customer session data.</li>
-                    <li>Implemented data preprocessing techniques to convert raw CSV data into numerical feature vectors for training.</li>
-                    <li>Achieved classification accuracy by analyzing patterns in variables such as administrative duration, informational value, and visitor type.</li>
-                    <li>Evaluated the model’s performance using precision, recall, and F1-score, and tuned parameters to optimize predictive effectiveness.</li>
-                    <li>Gained hands-on experience with Scikit-learn, pandas, and NumPy in a practical machine learning context.</li>
-                </ul>
+                    <ul>
+                        <li>Built a K-Neighbors classifier to predict if a user will make a purchase on an e-commerce page based on 18 evidence labels.</li>
+                        <li>Used Scikit-learn to segregate dataset into training and test sets.</li>
+                        <li>Used Scikit-Learn to train model and evaluate output.</li>
+                        <li>Based on the data set of <a href="https://link.springer.com/article/10.1007/s00521-018-3523-0">Sakar et al.</a></li>
+                    </ul>
             </div>
         </div>
 
@@ -237,6 +233,5 @@
     <footer>
         <p>Copyright Razvan Rotundu 2025</p>
     </footer>
-    
 </body>
 </html>
